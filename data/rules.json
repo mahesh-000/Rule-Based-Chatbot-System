@@ -1,0 +1,164 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "keywords": [
+                "hi",
+                "hello",
+                "hey",
+                "yo",
+                "greetings",
+                "sup"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! Feeling good today?",
+                "Hey! Ready for some motivation or help with admissions?"
+            ]
+        },
+        {
+            "intent": "good_morning",
+            "keywords": [
+                "good morning",
+                "gm",
+                "morning",
+                "gud mrng"
+            ],
+            "responses": [
+                "Good morning! Make today count.",
+                "Rise and shine. Today is yours.",
+                "New day, new chances. Ready to crush it?"
+            ]
+        },
+        {
+            "intent": "good_night",
+            "keywords": [
+                "good night",
+                "gn",
+                "night",
+                "sleep",
+                "going to bed"
+            ],
+            "responses": [
+                "Good night. Recharge and come back stronger.",
+                "Sleep well. Tomorrow needs your energy.",
+                "Rest is productive too. Have a peaceful sleep."
+            ]
+        },
+        {
+            "intent": "motivation",
+            "keywords": [
+                "motivation",
+                "tired",
+                "fail",
+                "failure",
+                "stress",
+                "pressure",
+                "give up",
+                "demotivated",
+                "not confident",
+                "scared"
+            ],
+            "responses": [
+                "Every expert was once a beginner. Keep going.",
+                "You are stronger than your doubts.",
+                "Don't quit. Your future self will thank you.",
+                "Small progress is still progress.",
+                "You survived 100% of your bad days so far."
+            ]
+        },
+        {
+            "intent": "affection",
+            "keywords": [
+                "i love you",
+                "love you",
+                "ily",
+                "miss you",
+                "hug"
+            ],
+            "responses": [
+                "That’s sweet. I appreciate you.",
+                "I’m always here for you.",
+                "You just made my virtual heart smile.",
+                "Sending a virtual hug your way!"
+            ]
+        },
+        {
+            "intent": "gratitude",
+            "keywords": [
+                "thanks",
+                "thank you",
+                "thx",
+                "appreciate it"
+            ],
+            "responses": [
+                "Always happy to help.",
+                "You're welcome.",
+                "Glad I could assist you.",
+                "Anytime! I'm here to help."
+            ]
+        },
+        {
+            "intent": "identity",
+            "keywords": [
+                "who are you",
+                "what are you",
+                "your name",
+                "identity"
+            ],
+            "responses": [
+                "I am an Enhanced Rule-Based Chatbot system, powered by structured logic and personality layers.",
+                "I'm CoreChat, designed to demonstrate advanced pattern matching and response logic."
+            ]
+        },
+        {
+            "intent": "mood_sad",
+            "keywords": [
+                "sad",
+                "lonely",
+                "upset",
+                "crying",
+                "depressed",
+                "unhappy"
+            ],
+            "responses": [
+                "I'm sorry you're feeling this way. I'm here to listen.",
+                "It's okay to feel sad sometimes. You're not alone.",
+                "Sending you positive thoughts. Hard times don't last forever."
+            ]
+        },
+        {
+            "intent": "mood_happy",
+            "keywords": [
+                "happy",
+                "excited",
+                "proud",
+                "achieved",
+                "great",
+                "awesome"
+            ],
+            "responses": [
+                "That's wonderful! I'm happy for you!",
+                "Keep that energy up! You're doing great.",
+                "Awesome! Celebration is definitely in order."
+            ]
+        },
+        {
+            "intent": "education",
+            "keywords": [
+                "help",
+                "features",
+                "courses",
+                "fees",
+                "admission",
+                "apply",
+                "programs"
+            ],
+            "responses": [
+                "We offer various programs like Engineering and MCA. Admissions are open!",
+                "You can check our website for the latest fee structure and enrollment details."
+            ]
+        }
+    ],
+    "fallback": "I'm sorry, I didn't quite understand that. Could you please rephrase? You can try asking for motivation or just say hello!"
+}

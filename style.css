@@ -7,7 +7,8 @@
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
     --user-msg-bg: #6366f1;
-    --bot-msg-bg: rgba(255, 255, 255, 0.1);
+    --bot-msg-bg: rgba(255, 255, 255, 0.15);
+    /* Slightly lighter for better contrast */
     --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -194,6 +195,8 @@ header {
     background: var(--bot-msg-bg);
     border-bottom-left-radius: 4px;
     border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* Added depth */
 }
 
 .user-message {
@@ -289,11 +292,10 @@ header {
     }
 
     header {
-        padding: 12px 16px;
-        /* 16px side padding */
-        min-height: 60px;
+        padding: 18px 16px;
+        /* Increased vertical padding to 18px */
+        min-height: 70px;
         flex-shrink: 0;
-        /* Header won't shrink */
     }
 
     .brand h1 {
@@ -312,12 +314,11 @@ header {
 
     .status-badge span {
         display: none;
-        /* Hide text on mobile */
     }
 
     #chat-container {
-        padding: 16px;
-        /* 16px side padding */
+        padding: 16px 16px 80px 16px;
+        /* 16px horizontal, 80px bottom for input clearance */
         gap: 16px;
         flex: 1;
         overflow-y: auto;
@@ -325,17 +326,15 @@ header {
 
     .message {
         max-width: 85%;
-        /* 85% width as requested */
+        /* Enforced 85% max-width for readability */
         padding: 12px 16px;
         font-size: 0.95rem;
     }
 
     .input-area {
         padding: 12px 16px;
-        /* 16px side padding */
         gap: 10px;
         flex-shrink: 0;
-        /* Input area won't shrink */
     }
 
     #send-btn {

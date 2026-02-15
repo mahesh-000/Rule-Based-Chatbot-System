@@ -67,10 +67,7 @@ node tests/engine.test.js
 
 Rules are stored in `data/rules.json` using the following structure:
 ```json
-{
-  "intent": "fees",
-  "patterns": ["fees", "cost", "price"],
-  "response": "The fee structure details are available on the website."
+
 }
 ```
 

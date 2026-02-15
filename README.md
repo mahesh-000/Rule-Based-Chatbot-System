@@ -66,7 +66,13 @@ node tests/engine.test.js
 ## 📝 Rule Format
 
 Rules are stored in `data/rules.json` using the following structure:
-```json
+```json for exm......
+{
+  "intent": "fees",
+  "patterns": ["fees", "cost", "price"],
+  "response": "The fee structure details are available on the website."
+}
+```
 
 ## 📄 License
 This project is for academic and educational purposes.

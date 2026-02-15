@@ -68,8 +68,5 @@ node tests/engine.test.js
 Rules are stored in `data/rules.json` using the following structure:
 ```json
 
-}
-```
-
 ## 📄 License
 This project is for academic and educational purposes.
